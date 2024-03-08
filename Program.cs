@@ -31,10 +31,10 @@
             int[] result = TwoSum(nums, target);
             if (result[0] == 0 && result[1] == 0)
             {
-                Console.WriteLine("No result found");
+                Console.WriteLine("There is no Two Sum result found.");
             } else
             {
-                Console.Write($"The result is: [{string.Join(", ", result)}]");
+                Console.Write($"The Two Sum result is: [{string.Join(", ", result)}]");
             }
         }
     }
