@@ -32,7 +32,6 @@
             if (result[0] == 0 && result[1] == 0)
             {
                 Console.WriteLine("No result found");
-                return;
             } else
             {
                 Console.Write($"The result is: [{string.Join(", ", result)}]");
